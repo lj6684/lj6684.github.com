@@ -12,6 +12,7 @@ tags: [Linux, Shell, zsh]
 {% highlight bash %}
 sudo apt-get install curl
 sudo apt-get install zsh
+sudo apt-get install git
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 {% endhighlight %}			
 
