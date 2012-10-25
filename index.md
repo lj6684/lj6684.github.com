@@ -9,7 +9,7 @@ description: "李健的博客"
 <tr>
 <td width="70%">
 	<div class="home-page-content">
-		{% for post in site.posts limit:5 %}
+		{% for post in site.posts limit:8 %}
 		<div class="home-page-post">
 			<div class="post-header">
 				<div class="date">{{ post.date | date_to_string }}</div>
